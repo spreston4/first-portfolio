@@ -56,5 +56,22 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 
 /* body styling */
 .container {
+    display: flex;
+    margin-top: 40px;
+}
 
+.container h2 {
+    font-size: 50px;
+    font-weight: 900;
+    flex: 0 0 200px;
+    flex-wrap: wrap;
+    text-align: right;
+    border-right: 3px solid var(--body-text);
+    margin-left: 100px;
+    padding-right: 15px;
+    line-height: 1;
+}
+
+.container p {
+    margin: 0 25px;
 }
