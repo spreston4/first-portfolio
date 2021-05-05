@@ -20,7 +20,7 @@ body {
     color: var(--body-text);
 }
 
-/* header & nav styling */
+/* Header & nav styling */
 header {
     display: flex;
     flex: 0 0 100%;
@@ -54,10 +54,13 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     padding: 5px;
 }
 
-/* container styling */
+/* Subtitle styling */
+
+/* Container styling */
 .container {
     display: flex;
     margin-top: 40px;
+    flex: 0 0 100%;
 }
 
 .container h2 {
@@ -72,7 +75,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     line-height: 1;
 }
 
-/* sub-container styling */
+/* About me styling */
 
 .about-me {
     display: inline;
@@ -83,8 +86,8 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     flex-grow: 0;
     flex-shrink: 0;
     float: left;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 25px;
+    border-radius: 25px;
     box-shadow: 7px 7px 5px var(--body-text);
 
 }
@@ -92,4 +95,49 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 .about-me p {
     margin: 0 25px;
     text-align: justify;
+}
+
+/* Work section sub-container styling */
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 80%;
+}
+
+/* Styling for first project - needs to be larger */
+.first-project {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 75%;
+    border: 3px solid var(--alternate);
+    margin: 0 auto;
+    align-items:flex-start;
+    justify-content: center;
+    background-image: url(/assets/images/code.jpg);
+}
+
+.first-project h3 {
+    color: var(--primary);
+    background-color: var(--alternate);
+    font-size: 30px;
+    width: 175px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.first-project p {
+    color: var(--primary);
+    background-color: var(--alternate);
+    font-size: 15px;
+    width: 175px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.first-project:hover {
+    opacity: 75%;
 }
