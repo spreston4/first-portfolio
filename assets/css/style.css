@@ -1,0 +1,60 @@
+/* Import Open Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Define global variables */
+:root {
+    --bg-color: #ededf6;
+    --body-text: #445876;
+    --primary: #31343d;
+    --alternate: #92cccd;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--body-text);
+}
+
+/* header & nav styling */
+header {
+    display: flex;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 20px 0;
+}
+
+header h1 {
+    background-color: var(--alternate);
+    color: var(--primary);
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 5%;
+    padding-right: 10px;
+}
+
+nav {
+    padding-left: 15px;
+    padding-right: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Don't want the link styling to change after link is followed/used */
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    color: var(--alternate);
+    text-decoration: none;
+    border-bottom: 3px solid var(--alternate);
+    padding: 5px;
+}
+
+/* body styling */
+.container {
+
+}
