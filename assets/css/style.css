@@ -54,7 +54,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     padding: 5px;
 }
 
-/* body styling */
+/* container styling */
 .container {
     display: flex;
     margin-top: 40px;
@@ -72,6 +72,24 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     line-height: 1;
 }
 
-.container p {
+/* sub-container styling */
+
+.about-me {
+    display: inline;
+}
+
+.about-me img {
+    height: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 7px 7px 5px var(--body-text);
+
+}
+
+.about-me p {
     margin: 0 25px;
+    text-align: justify;
 }
