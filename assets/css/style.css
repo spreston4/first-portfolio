@@ -42,7 +42,7 @@ header h1 {
 
 nav {
     padding-left: 15px;
-    padding-right: 5%;
+    padding-right: 10%;
     font-size: 20px;
     font-weight: 500;
     line-height: 35px;
@@ -71,7 +71,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     font-size: 30px;
     font-weight: 900;
     bottom: 15px;
-    right: 5%;
+    right: 10%;
     padding: 0 10px;
 }
 
@@ -89,7 +89,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     flex-wrap: wrap;
     text-align: right;
     border-right: 3px solid var(--body-text);
-    margin-left: 1%;
+    margin-left: 2%;
     padding-right: 15px;
     line-height: 1;
 }
@@ -239,6 +239,69 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 font-size: 30px;
 font-weight: 900;
 text-align: center;
+}
+
+/* Media queries & styling */
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header h1 {
+        padding-right: 5%;
+    }
+
+    nav {
+        padding-left: 10%;
+    }
+
+    nav a {
+        margin: auto;
+    }
+
+    .subtitle {
+        height: 100px;
+        display: block;
+    }
+    
+    .subtitle h2 {
+        left: 10%;
+        right: 10%;
+        padding: 5px;
+        text-align: center;
+    }
+
+   .container{
+       flex-direction: column;
+       align-content: center;
+       justify-content: center;
+   }
+
+   .container h2 {
+    text-align: center;
+    border-right: none;
+    height: 45px;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    flex: 0 0 100%;
+    padding: 5px;
+    border-bottom: 3px solid var(--body-text);
+    border-top: 3px solid var(--body-text);
+   }
+
+   .about-me {
+    width: 100%;
+   }
+
+   .sub-container {
+    flex: 0 0 100%;
+   }
+
+   .contact {
+       width: 100%;
+   }
 }
 
 
