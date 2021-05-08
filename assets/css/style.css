@@ -321,17 +321,22 @@ text-align: center;
         border-bottom: none;
        }
 
+    .about-me {
+        display: block;
+    }
+
     .about-me img {
         float: none;
-        margin: 0 25px;
-        border-radius: 25px;
+        margin-right: auto;
+        margin-left: auto;
         box-shadow: none;
     }
 
     .contact a {
+        border-bottom: none;
         font-size: 15px;
         font-weight: 900;
-        line-height: 315px;
+        line-height: 15px;
         padding: 2px;
         margin: 5px 20px;
         flex: 0 0 1em;
