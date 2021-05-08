@@ -115,6 +115,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 .about-me p {
     margin: 0 25px;
     text-align: justify;
+    color: var(--primary);
 }
 
 /* Work section sub-container styling */
@@ -239,6 +240,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 font-size: 30px;
 font-weight: 900;
 text-align: center;
+color: var(--primary);
 }
 
 /* Media queries & styling for tablets*/
@@ -287,7 +289,7 @@ text-align: center;
     margin-bottom: 20px;
     flex: 0 0 100%;
     padding: 5px;
-    border-bottom: 3px solid var(--body-text);
+    border-bottom: none;
     border-top: 3px solid var(--body-text);
    }
 
@@ -302,6 +304,16 @@ text-align: center;
    .contact {
        width: 100%;
    }
+
+   .contact a {
+    border-bottom: none;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20px;
+    padding: 2px;
+    margin: 5px 10px;
+    flex: 0 0 1em;
+}
 }
 
 /* Media queries & styling for phones*/
@@ -326,10 +338,12 @@ text-align: center;
     }
 
     .about-me img {
-        float: none;
+        display: block;
         margin-right: auto;
         margin-left: auto;
         box-shadow: none;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .contact a {
@@ -338,7 +352,7 @@ text-align: center;
         font-weight: 900;
         line-height: 15px;
         padding: 2px;
-        margin: 5px 20px;
+        margin: 5px 10px;
         flex: 0 0 1em;
     }
 }
