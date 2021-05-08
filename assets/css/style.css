@@ -89,7 +89,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     flex-wrap: wrap;
     text-align: right;
     border-right: 3px solid var(--body-text);
-    margin-left: 100px;
+    margin-left: 1%;
     padding-right: 15px;
     line-height: 1;
 }
@@ -172,6 +172,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     align-items: center;
     align-content: space-around;
     margin-top: 20px;
+    width: 80%;
 }
 
 /* Styling for normal project cards */
@@ -209,4 +210,26 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 
 .project:hover {
     opacity: 75%;
+}
+
+/* Styling for Contact section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+
+.contact a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 3px solid var(--body-text);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+    padding: 2px;
+    margin: 5px 20px;
+    flex: 0 0 1em;
 }
