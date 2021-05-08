@@ -98,6 +98,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 
 .about-me {
     display: inline;
+    width: 80%;
 }
 
 .about-me img {
@@ -172,7 +173,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     align-items: center;
     align-content: space-around;
     margin-top: 20px;
-    width: 80%;
+    width: 85%;
 }
 
 /* Styling for normal project cards */
@@ -180,9 +181,8 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     display: flex;
     flex-direction: column;
     height: 150px;
-    width: 500px;
+    flex: 0 1 450px;
     border: 3px solid var(--alternate);
-    margin: auto;
     margin-top: 20px;
     align-items:flex-start;
     justify-content: center;
@@ -233,3 +233,12 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     margin: 5px 20px;
     flex: 0 0 1em;
 }
+
+/* Resume Section Styling */
+#resume p {
+font-size: 30px;
+font-weight: 900;
+text-align: center;
+}
+
+
