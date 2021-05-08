@@ -241,7 +241,7 @@ font-weight: 900;
 text-align: center;
 }
 
-/* Media queries & styling */
+/* Media queries & styling for tablets*/
 @media screen and (max-width: 1000px) {
     header {
         flex-direction: column;
@@ -304,4 +304,36 @@ text-align: center;
    }
 }
 
+/* Media queries & styling for phones*/
+@media screen and (max-width: 500px) {
+    .subtitle h2 {
+        font-size: 15px;
+        font-weight: 900;
+        padding: 0 10px;
+        left: 10%;
+        right: 10%;
+        padding: 5px;
+        text-align: center;
+    }
 
+    .container h2 {
+        border-right: none;
+        border-bottom: none;
+       }
+
+    .about-me img {
+        float: none;
+        margin: 0 25px;
+        border-radius: 25px;
+        box-shadow: none;
+    }
+
+    .contact a {
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 315px;
+        padding: 2px;
+        margin: 5px 20px;
+        flex: 0 0 1em;
+    }
+}
