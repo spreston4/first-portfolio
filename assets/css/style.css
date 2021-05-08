@@ -13,6 +13,7 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -44,6 +45,7 @@ nav {
     padding-right: 5%;
     font-size: 20px;
     font-weight: 500;
+    line-height: 35px;
 }
 
 /* Don't want the link styling to change after link is followed/used */
@@ -55,6 +57,23 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 }
 
 /* Subtitle styling */
+.subtitle {
+    background-image: url(/assets/images/code.jpg);
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.subtitle h2 {
+    position: absolute;
+    background-color: var(--alternate);
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: 900;
+    bottom: 15px;
+    right: 5%;
+    padding: 0 10px;
+}
 
 /* Container styling */
 .container {
@@ -107,11 +126,13 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 }
 
 /* Styling for first project - needs to be larger */
+/* look into pseudo elements for show/hide opacity background */
+/* Should combine styling for all project cards and set up unique id syleing for first project differences */
 .first-project {
     display: flex;
     flex-direction: column;
     height: 300px;
-    width: 75%;
+    width: 80%;
     border: 3px solid var(--alternate);
     margin: 0 auto;
     align-items:flex-start;
@@ -139,5 +160,53 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 }
 
 .first-project:hover {
+    opacity: 75%;
+}
+
+/* Styling for other projects sub section */
+.other-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 20px;
+}
+
+/* Styling for normal project cards */
+.project {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 500px;
+    border: 3px solid var(--alternate);
+    margin: auto;
+    margin-top: 20px;
+    align-items:flex-start;
+    justify-content: center;
+    background-image: url(/assets/images/code.jpg);
+}
+
+.project h3 {
+    color: var(--primary);
+    background-color: var(--alternate);
+    font-size: 30px;
+    width: 175px;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.project p {
+    color: var(--primary);
+    background-color: var(--alternate);
+    font-size: 15px;
+    width: 175px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.project:hover {
     opacity: 75%;
 }
