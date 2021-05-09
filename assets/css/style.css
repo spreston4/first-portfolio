@@ -327,11 +327,10 @@ color: var(--primary);
     text-align: left;
     border-right: none;
     height: 45px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 20px;
+    margin: 25px;
     flex: 0 0 100%;
     padding-bottom: 25px;
+    padding-top: 25px;
     border-bottom: 3px solid var(--body-text);
     border-top: none;
    }

@@ -1,7 +1,7 @@
 # Sam Preston - Portfolio
 
 ## Description
-I am currently working on a Certificate from The University of Washington's Full Stack Web Development Bootcamp. Upon completion of the class I hope to transition my career into web development. As I progress through the class, i will need a place to collect and showcase my work. I will be able to refer future employers to my portfolio in order to view my work and learn about me!
+I am currently working on a Certificate from The University of Washington's Full Stack Web Development Bootcamp. Upon completion of the class I hope to transition my career into web development. As I progress through the class, I will need a place to collect and showcase my work. I will be able to refer future employers to my portfolio in order to view my work and learn about me!
 
 [Deployed Application](https://spreston4.github.io/preston-portfolio/)
 
