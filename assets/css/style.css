@@ -162,6 +162,7 @@ nav a:hover {
     align-items:flex-start;
     justify-content: center;
     background-image: url(../images/pro_img.png);
+    opacity: 90%;
 }
 
 .first-project h3 {
@@ -183,9 +184,9 @@ nav a:hover {
     text-align: justify;
 }
 
-.first-project:hover {
-    opacity: 75%;
-}
+ .first-project:hover {
+    opacity: 100%;
+ }
 
 /* Styling for other projects sub section */
 .other-projects {
@@ -214,6 +215,7 @@ nav a:hover {
     align-items:flex-start;
     justify-content: center;
     background-image: url(../images/pro_img.png);
+    opacity: 90%;
 }
 
 .project h3 {
@@ -236,7 +238,7 @@ nav a:hover {
 }
 
 .project:hover {
-    opacity: 75%;
+    opacity: 100%;
 }
 
 
