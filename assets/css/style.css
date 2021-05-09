@@ -75,7 +75,8 @@ nav a:hover {
 .subtitle {
     background-image: url(../images/ban_img.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     height: 200px;
     width: 100%;
     position: relative;
@@ -322,15 +323,16 @@ color: var(--primary);
    }
 
    .container h2 {
-    text-align: center;
+    text-align: left;
     border-right: none;
     height: 45px;
-    margin-left: 0%;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-bottom: 20px;
     flex: 0 0 100%;
     padding: 5px;
-    border-bottom: none;
-    border-top: 3px solid var(--body-text);
+    border-bottom: 3px solid var(--body-text);
+    border-top: none;
    }
 
    #about {
@@ -368,6 +370,15 @@ color: var(--primary);
 
 /* Media queries & styling for phones*/
 @media screen and (max-width: 500px) {
+    header {
+        padding: 0;
+    }
+
+    header h1 {
+        padding-top: 0px;
+        margin-top: 0px;
+        margin: 0 auto;
+    }
     .subtitle h2 {
         font-size: 15px;
         font-weight: 900;
@@ -375,12 +386,11 @@ color: var(--primary);
         left: 10%;
         right: 10%;
         padding: 5px;
-        text-align: center;
+        margin: 0 auto;
     }
 
     .container h2 {
         border-right: none;
-        border-bottom: none;
        }
 
     .about-me {
@@ -394,6 +404,11 @@ color: var(--primary);
         margin-left: auto;
         padding: 0px;
         margin-bottom: 10px;
+    }
+
+    .first-project {
+        width: 85%;
+        height: 150px;
     }
 
     .contact a {
