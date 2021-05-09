@@ -21,6 +21,10 @@ body {
     color: var(--body-text);
 }
 
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
 /* Header & nav styling */
 header {
     display: flex;
@@ -127,6 +131,10 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     flex: 0 0 80%;
 }
 
+.subcontainer a:link .subcontainer a:visited {
+    text-decoration: none;
+}
+
 /* Styling for first project - needs to be larger */
 /* look into pseudo elements for show/hide opacity background */
 /* Should combine styling for all project cards and set up unique id syleing for first project differences */
@@ -216,7 +224,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 /* Styling for Contact section */
 .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     width: 80%;
@@ -226,7 +234,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
 .contact a {
     color: var(--primary);
     text-decoration: none;
-    border-bottom: 3px solid var(--body-text);
+    border-bottom: 2px solid var(--body-text);
     font-size: 30px;
     font-weight: 900;
     line-height: 35px;
@@ -241,6 +249,16 @@ font-size: 30px;
 font-weight: 900;
 text-align: center;
 color: var(--primary);
+}
+
+/* Coming soon styling */
+#coming-soon {
+    margin-top: 50px;
+    text-align: center;
+    color: var(--primary);
+    font-size: 25px;
+
+
 }
 
 /* Media queries & styling for tablets*/
@@ -293,6 +311,11 @@ color: var(--primary);
     border-top: 3px solid var(--body-text);
    }
 
+   #about {
+       margin-top: 0px;
+   }
+
+
    .about-me {
     width: 100%;
    }
@@ -306,14 +329,19 @@ color: var(--primary);
    }
 
    .contact a {
-    border-bottom: none;
+    border-bottom: 1px solid var(--body-text);
     font-size: 20px;
     font-weight: 900;
     line-height: 20px;
     padding: 2px;
     margin: 5px 10px;
     flex: 0 0 1em;
-}
+    }
+
+    #resume p {
+        font-size: 20px;
+        margin-bottom: 25px;
+        }
 }
 
 /* Media queries & styling for phones*/
@@ -339,15 +367,15 @@ color: var(--primary);
 
     .about-me img {
         display: block;
+        float: none;
         margin-right: auto;
         margin-left: auto;
-        box-shadow: none;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding: 0px;
+        margin-bottom: 10px;
     }
 
     .contact a {
-        border-bottom: none;
+        /* border-bottom: 1px solid var(--body-text); */
         font-size: 15px;
         font-weight: 900;
         line-height: 15px;
@@ -355,4 +383,9 @@ color: var(--primary);
         margin: 5px 10px;
         flex: 0 0 1em;
     }
+
+    #resume p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        }
 }
