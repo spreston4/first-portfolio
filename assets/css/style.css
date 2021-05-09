@@ -1,3 +1,4 @@
+/* This code is WET */
 /* Import Open Sans Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
@@ -53,16 +54,27 @@ nav {
 }
 
 /* Don't want the link styling to change after link is followed/used */
-nav a:link, nav a:visited, nav a:hover, nav a:active {
+nav a:link, nav a:visited, nav a:active {
     color: var(--alternate);
     text-decoration: none;
     border-bottom: 3px solid var(--alternate);
     padding: 5px;
 }
 
+nav a:hover {
+    color: var(--alternate);
+    text-decoration: none;
+    border-bottom: none;
+    padding: 5px;
+}
+
+
+
 /* Subtitle styling */
 .subtitle {
-    background-image: url(/assets/images/code.jpg);
+    background-image: url(/assets/images/banner-image.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 200px;
     width: 100%;
     position: relative;
@@ -147,7 +159,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     margin: 0 auto;
     align-items:flex-start;
     justify-content: center;
-    background-image: url(/assets/images/code.jpg);
+    background-image: url(/assets/images/project-image.PNG);
 }
 
 .first-project h3 {
@@ -195,7 +207,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     margin-top: 20px;
     align-items:flex-start;
     justify-content: center;
-    background-image: url(/assets/images/code.jpg);
+    background-image: url(/assets/images/project-image.PNG);
 }
 
 .project h3 {
@@ -241,6 +253,10 @@ nav a:link, nav a:visited, nav a:hover, nav a:active {
     padding: 2px;
     margin: 5px 20px;
     flex: 0 0 1em;
+}
+
+.contact a:hover {
+    border-bottom: none;
 }
 
 /* Resume Section Styling */
