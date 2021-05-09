@@ -72,7 +72,7 @@ nav a:hover {
 
 /* Subtitle styling */
 .subtitle {
-    background-image: url(/assets/images/banner-image.PNG);
+    background-image: url(assets/images/banner-image.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 200px;
@@ -159,7 +159,7 @@ nav a:hover {
     margin: 0 auto;
     align-items:flex-start;
     justify-content: center;
-    background-image: url(/assets/images/project-image.PNG);
+    background-image: url(assets/images/project-image.png);
 }
 
 .first-project h3 {
@@ -207,7 +207,7 @@ nav a:hover {
     margin-top: 20px;
     align-items:flex-start;
     justify-content: center;
-    background-image: url(/assets/images/project-image.PNG);
+    background-image: url(assets/images/project-image.png);
 }
 
 .project h3 {
