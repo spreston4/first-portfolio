@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## The Challenge
-I was challenged to design & build my portfolio from a set of refrence images. My site needed to match the apperance and functionality of the following images:
+This project was started from scratch - no started code or assets. I was challenged to design & build my portfolio from a set of refrence images. My site needed to match the apperance and functionality of the following images:
 
 Functionality:
 ![Functionality](./assets/images/02-advanced-css-homework-demo.gif)
