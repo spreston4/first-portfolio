@@ -314,6 +314,7 @@ color: var(--primary);
         right: 10%;
         padding: 5px;
         text-align: center;
+        line-height: 2em;
     }
 
    .container{
@@ -330,7 +331,7 @@ color: var(--primary);
     margin-right: 25px;
     margin-bottom: 20px;
     flex: 0 0 100%;
-    padding: 5px;
+    padding-bottom: 25px;
     border-bottom: 3px solid var(--body-text);
     border-top: none;
    }
@@ -391,6 +392,7 @@ color: var(--primary);
 
     .container h2 {
         border-right: none;
+        padding-bottom: 25px;
        }
 
     .about-me {
