@@ -159,9 +159,9 @@ nav a:hover {
     width: 80%;
     border: 3px solid var(--alternate);
     margin: 0 auto;
+    margin-bottom: 15px;
     align-items:flex-start;
     justify-content: center;
-    background-image: url(../images/pro_img.png);
     opacity: 90%;
 }
 
@@ -282,8 +282,24 @@ color: var(--primary);
     text-align: center;
     color: var(--primary);
     font-size: 25px;
+}
 
+#the-collector {
+    background-image: url(../images/the-collector.PNG);
+}
 
+#hangman {
+    background-image: url(../images/hangman.png);
+}
+
+#trivia-challenge {
+    background-image: url(../images/trivia-challenge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#weather-dashboard {
+    background-image: url(../images/weather-dashboard.png);
 }
 
 /* Media queries & styling for tablets*/
