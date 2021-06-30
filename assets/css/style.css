@@ -116,7 +116,7 @@ nav a:hover {
 
 .about-me {
     display: inline;
-    width: 80%;
+    width: 83%;
 }
 
 .about-me img {
@@ -125,8 +125,10 @@ nav a:hover {
     flex-shrink: 0;
     float: left;
     margin: 0 25px;
+    margin-bottom: 10px;
     border-radius: 25px;
-    box-shadow: 7px 7px 5px var(--body-text);
+    border: 3px solid var(--alternate);
+    /* box-shadow: 7px 7px 5px var(--body-text); */
 
 }
 
