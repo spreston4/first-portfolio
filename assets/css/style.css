@@ -304,6 +304,19 @@ color: var(--primary);
     background-image: url(../images/weather-dashboard.png);
 }
 
+#team-gen {
+    background-image: url(../images/team-gen.png);
+    background-size: cover;
+}
+
+#ems {
+    background-image: url(../images/ems.png);
+}
+
+#blog {
+    background-image: url(../images/blog.png);
+}
+
 /* Media queries & styling for tablets*/
 @media screen and (max-width: 1000px) {
     header {
